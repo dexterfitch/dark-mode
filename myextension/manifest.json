@@ -1,0 +1,20 @@
+{
+
+    "manifest_version": 2,
+    "name": "myextension",
+    "version": "1.0",
+  
+    "description": "converts to dark mode",
+      
+    "browser_action": {
+      "default_icon": {
+        "16": "icons/page-16.png",
+        "32": "icons/page-32.png"
+      }
+    },
+  
+  
+    "background": {
+      "scripts": ["myextension.js"]
+    }
+}
