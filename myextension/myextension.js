@@ -1,8 +1,8 @@
 function colorLinks(hex)
 {
     function dark () {
-        document.body.style.backgroundColor = "black"; 
-        document.body.style.color = "red"; 
+        document.body.style.backgroundColor = "#2b2b2b"; 
+        document.body.style.color = "#f458b6"; 
         
         }
 dark();        
